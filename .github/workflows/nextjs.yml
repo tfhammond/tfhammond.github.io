@@ -31,7 +31,7 @@ jobs:
 
     defaults:
       run:
-        wokring-directory: ./portfolio_website
+        working-directory: ./portfolio_website
 
     steps:
       - name: Checkout
