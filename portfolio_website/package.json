@@ -1,5 +1,6 @@
 {
   "name": "portfolio_website",
+  "homepage": "https://tfhammond.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export" : "npm run build && rm -rf docs && mv out docs"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "15.4.5",
@@ -20,5 +22,4 @@
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
   }
-
 }
