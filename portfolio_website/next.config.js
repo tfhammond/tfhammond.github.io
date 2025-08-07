@@ -5,7 +5,7 @@
 const nextConfig = {
   output: "export",
 
-  basePath: "/tfhammond.github.io",
+  distDir: 'dist',
 
   images: {
     unoptimized: true,
