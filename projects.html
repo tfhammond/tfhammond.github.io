@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="page-projects">
+    <header class="site-header">
+      <div class="container">
+        <nav class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+            <li><a class="nav-link" data-page="projects" href="projects.html">Projects</a></li>
+            <li><a class="nav-link" data-page="about" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1 class="page-title">Projects</h1>
+        <p class="lead">Some of the stuff I've been working on.</p>
+
+        <section class="projects-grid">
+          <article class="card">
+            <h2>3-DoF CubeSat Detumble Simulator</h2>
+            <p>Simulated rigid-body attitude dynamics with magnetic control to validate
+            detumble convergence and safe-rate thresholds.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">NumPy</span>
+              <span class="tag">Matplotlib</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/tfhammond/3dof-detumble-sim" target="_blank" rel="noopener noreferrer">Github Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Secure File Encryptor</h2>
+            <p>CLI utility for encrypting and signing files with authenticated
+            AES-256-GCM and clear key management guidance.</p>
+            <div class="tag-list">
+              <span class="tag">C++</span>
+              <span class="tag">OpenSSL</span>
+              <span class="tag">AES-256-GCM</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/tfhammond/secure-file-encryptor-cpp" target="_blank" rel="noopener noreferrer">Github Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Soundwave RPi LED Matrix Visualizer</h2>
+            <p>Real-time audio spectrum mapped to a 64x32 LED matrix with UDP
+            streaming and configurable palettes.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">UDP</span>
+              <span class="tag">rpi-rgb-led-matrix</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/tfhammond/soundwave-rpi-matrix" target="_blank" rel="noopener noreferrer">Github Repo</a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Thomas Hammond</p>
+      </div>
+    </footer>
+  </body>
+</html>

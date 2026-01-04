@@ -1,0 +1,6 @@
+# Ignore agent / Codex prompt files
+prompt.md
+prompt_clean.md
+prompt_1.md
+prompt_2.md
+prompt_3.md
