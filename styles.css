@@ -355,16 +355,24 @@ main {
 /* 6. Page-specific rules */
 body.page-home .nav-link[data-page="home"],
 body.page-projects .nav-link[data-page="projects"],
-body.page-interesting .nav-link[data-page="interesting"],
 body.page-about .nav-link[data-page="about"] {
   color: var(--text);
   border-bottom-color: var(--text);
+}
+
+body.page-interesting .page-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: 0.02em;
 }
 
 /* 7. Media queries */
 @media (min-width: 701px) {
   .home-actions {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body.page-interesting .page-title {
+    white-space: nowrap;
   }
 }
 
